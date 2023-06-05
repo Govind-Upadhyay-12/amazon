@@ -1,0 +1,161 @@
+body{
+    background-color: pink;
+    
+}
+.header{
+
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+    border:2px solid rgb(17, 17, 17);
+    background-color: rgb(32, 30, 30) ;
+    height: 50px;
+    width: 100%;
+}
+
+.left img{
+    
+    width: 110px;
+    height: 30px;
+    margin-right: 300px;
+    margin-top: 15px;
+    
+}
+.middle{
+
+    display: flex;
+    gap:2%;
+    
+    
+    
+}
+/*  */
+.search{
+    width: 30px;
+    color: aliceblue;
+    background-color: orange;
+    margin-right:300px; 
+    height: 26px;
+    margin-left: -18px;
+    }
+.textbox{
+    position: relative;
+    width:400px;
+    height:20px;
+    margin-left: 100px;
+}
+.cart{
+    display: flex;
+    width: 55px;
+    color: beige;
+    margin-right: 20px;
+}
+.secondcontainer{
+    background-color:rgb(76, 76, 76);
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+
+}
+ li{
+    gap:12%;
+    justify-content: space-evenly;
+    font-size: 13px;
+    margin-left: 5px;
+    cursor: pointer;
+    color: white;
+    list-style-type: none;
+    float: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+h5{
+    margin-right: 20px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.section{
+    
+    display: flex;
+    display: inline-flex;
+    gap: 10px;
+}
+.block1{
+    background-color: white;
+    
+    margin-top: 125px;
+    
+    height: 350px;
+    border-radius: 10px;
+    
+
+}
+.block2{
+    margin-top: 125px;
+    background-color: white;
+    height: 360px;
+    border-radius: 10px;
+
+}
+.block3{
+    margin-top: 125px;
+    background-color: white;
+    height: 410px;
+    border-radius: 10px;
+
+}
+.block4{
+    margin-top: 125px;
+    background-color: white;
+    height: 120px;
+    margin-left: 35px;
+    border-radius: 35px;
+    padding-left: 25px;
+    padding-right: 5px;
+
+}
+p{
+    font-weight: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    border-radius: 20px;
+    width:150px;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(239, 159, 11);
+
+}
+.sectionp{
+    
+    margin-top: 30px;
+    background-color: white;
+    display: flex;
+    display: inline-flex;
+    padding: 10px;
+    gap:20px;
+    scroll-behavior: auto;
+    border-radius: 20px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow: auto;
+    
+    
+    
+}
+.section3{
+    
+    background-color: white;
+    width:fit-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 18px;
+    font-size: 10px;
+    
+    
+}
+.b1 .b2.b3.b4.b5.b6{
+    border: 2px solid black;
+}
